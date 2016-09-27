@@ -1,0 +1,93 @@
+
+#services{
+    padding:200px 0;
+    overflow:hidden;
+    .divider{ 
+        margin-top:40px;
+        width:800px;
+        position: relative;
+        &:after{
+            content:" ";
+            width:100px;
+            height: 5px;
+            background-color: white;
+            position:absolute;
+            left:20px;
+            opacity: 1;
+        }
+    }
+    position:relative;
+    background-color:#35362F;
+    color:white;
+    .header_service{
+        z-index:500;
+        position:absolute;
+    }
+    .service_part{
+        margin-top:100px;
+        padding:100px 0;
+        h1{
+            padding:20px 0;
+            font-size:45px;
+        }
+        p{
+            line-height: 25px;
+            font-size:15px;
+            margin-bottom:50px;
+        }
+        .buttonSlider_service{
+            
+        }
+        button{
+            background-color:transparent;
+            color:white;
+            border:5px solid white;  
+            border-radius: 0;
+            font-weight:700;
+            padding:20px 40px;
+            margin-right:20px;
+            transition: all 0.3s ease;
+            position: relative;
+            &:hover{
+                color:$mainColor;
+                background-color: white;
+            }
+        }
+    }
+    .left_service{
+        padding:50px 0;
+        border-right: 2px solid white;
+    }
+    .right_service{
+        position:absolute;
+        top:0;
+        right:0;
+        height: 100%;
+        background:url('../../img/services/page-1_img03.jpg') no-repeat center;
+        background-size:cover;
+        ul{
+            list-style: none;
+            position:relative;
+            bottom:-400px;
+            left:5px;
+            li{
+                color:$thirdColor ;
+                position:relative;
+                font-size:30px;
+                padding:10px;
+                
+                &:before{
+                    content: "";
+                    width:70px;
+                    height: 2px;
+                    background-color:white;
+                    position:absolute;
+                    left:-60px;
+                    top:30px;
+                    
+                }
+            }
+        }
+    }  
+    
+}

@@ -1,0 +1,94 @@
+@import "_variables";
+//<-----------------------FOOTER SECTION STARTS-------------------->
+#footer{
+  overflow-x: hidden;
+  background-color: #35362F;
+  position: relative;
+  iframe{
+    margin-top: 100px;
+  }
+    h1{
+      color: white;
+      padding: 70px;
+      font-size:30px;
+      font-family: 'Roboto Slab',serif;
+    }
+    .line{
+      width: 100%;
+      background-color: white;
+      border-bottom: 4px solid white;
+      position: absolute;
+      left: 15px;
+      width: 90px;
+      &:before{
+        content:'';
+        position: absolute;
+        display: inline-block;
+        border-bottom: 1px solid white;
+        width: 960px;
+        top:2px;
+        left:-35px;
+        opacity:0.1;
+      }
+        }
+    h2{
+      color: white;
+      padding: 40px 0;
+      font-size: 40px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+    }
+    img{
+      padding-top: 80px;
+    }
+    input{
+      width: 500px;
+      height: 50px;
+      margin: 2px;
+      font-size: 20px;
+      padding-left: 20px;
+      background: #4A4A44;
+      border:none;
+      color: white;
+    }
+    textarea{
+      min-width: 500px;
+      max-width: 500px;
+      height: 200px;
+      margin: 2px;
+      font-size: 20px;
+      padding-left: 20px;
+      background: #4A4A44;
+      border:none;
+    }
+    button{
+      background-color: #AEBE27;
+      padding: 20px;
+      margin: 50px 0px;
+      width: 165px;
+      color: white;
+      border: 3px solid #AEBE27;
+    }
+    span{
+      color: white;
+      font-size: 20px;
+    }
+    ul{
+      padding: 80px;
+    }
+    li{
+      padding-top:15px;
+      margin: 10px -45px;
+      font-size:25px;
+      list-style-type: none;
+      a{
+        color: #E1F619;
+        text-decoration: none;
+      }
+      .plan{
+      position: relative;
+      bottom: -40px;
+      }
+    }
+}
+//<-----------------------FOOTER SECTION ENDS-------------------->

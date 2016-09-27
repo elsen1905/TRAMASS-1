@@ -1,0 +1,28 @@
+
+#about{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	.row:first-child{
+		h1{
+			font-size: 52px;
+			font-weight: 700;
+			color: #35362F;
+		}
+	}
+	.row:nth-child(2){
+		.col-md-4{
+			i{
+				margin-top: 30px;
+				font-size: 4.5em;
+				color: #AEBE27;
+			}
+			h3{
+				font-size: 38px;
+			}
+			p{
+				font-size: 18px;
+				font-weight: 300;
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+@media (max-width: 480px) and (max-width: 766px) {
+  #welcome .starting_prgph {
+    font-size:25px;
+  }
+  #welcome h1{
+    font-size:30px;
+  }
+  .line{
+    &:before{
+      content:'';
+      width: 300px !important;
+}
+}
+ #welcome .first_prgph p , .second_prgph p{
+   font-size: 10px;
+ }
+ #welcome .second_prgph p{
+   font-size: 10px;
+ }
+ #welcome .button{
+
+ }
+}
+
+@media screen and (max-width:1000px){
+    #header{
+        overflow:hidden;
+        h1{
+            font-size:30px !important;
+        }
+        h3{
+            font-size:15px;
+        }
+        img{
+            height:70em;
+        }
+    }
+}

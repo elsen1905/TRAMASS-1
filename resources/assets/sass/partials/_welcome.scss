@@ -1,0 +1,65 @@
+@import "_variables";
+//<-----------------------WELCOME SECTION STARTS-------------------->
+html{
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+#welcome{
+  .first_container{
+    width: 900px;
+  }
+  p{
+    font-size:30px;
+    position: $mPos;
+    font-weight: 300 !important;
+    top: 90px;
+    font-family:$mFont;
+  }
+  .line{
+    width: 100%;
+    border-bottom: 5px solid black;
+    position: $mPos;
+    left: 0px;
+    top: 94px;
+    width: 90px;
+    &:before{
+      content:'';
+      position: $mPos;
+      display: inline-block;
+      border-bottom: 1px solid black;
+      width: 700px;
+      top:5px;
+      left: -10px;
+      opacity:0.1;
+    }
+      }
+  h1{
+    padding: 150px 0px 70px 00px;
+    font-family:$mFont;
+    font-weight: 700;
+    font-size:45px;
+  }
+  .first_img img , .second_img img{
+    width: 100%;
+  }
+  .first_prgph{
+    margin-bottom: 80px !important;
+  }
+  .first_prgph p , .second_prgph p{
+    font-family:$mFont;
+    font-weight: 300;
+    font-size:15px;
+    position: $mPos;
+    top: 50px;
+  }
+  button{
+    background-color: transparent;
+    padding: 15px 0 15px 0px;
+    border:3px solid black;
+    width: 150px;
+    position: $mPos;
+    top: 150px;
+  }
+}
+//<-----------------------WELCOME SECTION ENDS-------------------->

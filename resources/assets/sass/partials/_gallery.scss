@@ -1,0 +1,79 @@
+#gallery_header{
+    padding:125px 0;
+    text-align: center;
+    color:#35362F;
+    h1{
+        font-weight: 900;
+        font-size:50px;
+        margin-bottom:25px;
+    }
+    button{
+            background-color:transparent;
+            color:#35362F;
+            border:5px solid #35362F;  
+            border-radius: 0;
+            font-weight:700;
+            padding:20px 40px;
+            margin-right:20px;
+            transition: all 0.3s ease;
+            position: relative;
+            &:hover{
+                color:$mainColor;
+                background-color: #35362F;
+            }
+        }
+    .divider{ 
+        width:350px;
+        position: relative;
+        opacity: 1;
+        margin:0 auto;
+        &:after{
+            content:" ";
+            width:70px;
+            height: 5px;
+            background-color: #35362F;
+            border-radius: 1px;
+            position:absolute;
+            left:0px;
+            right:0;
+            margin:0 auto;
+        }
+    }
+}
+
+#gallery {
+    overflow-y: hidden;
+    .grid-item { 
+        width: 25%; 
+        height: 430px;
+        position:relative;
+        i{
+            position:absolute;
+            left:140px;
+            top:150px;
+            transition:all 0.3s ease;           
+            color:yellow;
+            border:5px solid yellow;
+            padding:5px;
+            border-radius:10px;
+            opacity: 0;
+        }
+        &:hover{
+            i{
+                opacity: 1;
+            }
+            
+        }
+    }
+    .grid-item--width2 { width: 25%; height: 330px; }
+    img{
+        width:100%;
+        height: 100%;
+        object-fit: cover;
+        transition:all 0.3s ease;
+        &:hover{
+            height: 109%;
+            opacity: 0.9;
+        }
+    }
+}

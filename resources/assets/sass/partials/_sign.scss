@@ -1,0 +1,51 @@
+$bodyColor: #FAFAFA;
+
+#signin, #signup{
+	background: $bodyColor;
+	color: #858585;
+	padding: 20px;
+    label{
+        float: left;
+    }
+	.col-md-4{
+		> h2{
+			margin-top: 30px;
+			color: #777777;
+		}
+		> p{
+			margin: 30px 0;
+			font-size: 16px;
+		}
+		> form{
+			input:not([type="submit"]){
+				border: 0;
+				outline: 0;
+				border-bottom: 3px solid #777777;
+				background: transparent;
+				box-shadow: none;
+			}
+			input:not([type="submit"]):focus{
+				border-bottom: 5px solid #5CB85C;
+				margin-bottom: -2px;
+				box-shadow: none;
+			}
+			.form-control{
+				padding-top: 20px !important;
+				padding-bottom: 20px !important;
+			}
+			a{
+				font-size: 16px;
+				font-weight: 700;
+				color: #417630;
+				text-decoration: none;
+			}
+			.btn-2{
+				width: 100%;
+				margin: 30px 0;
+				a{
+					color: #FFF !important;
+				}
+			}
+		}
+	}
+}
