@@ -1,0 +1,62 @@
+@import "_variables";
+#coreValues{
+    background-color:#AEBE27;
+    color:white;
+    position:relative;
+    padding:240px 0;
+    overflow:hidden;
+    .divider{ 
+        margin-top:40px;
+        width:800px;
+        position: relative;
+        opacity: 1;
+        &:after{
+            content:" ";
+            width:100px;
+            height: 5px;
+            background-color: white;
+            position:absolute;
+            left:20px;
+            opacity: 1;
+        }
+    }
+    .header_core{
+        z-index:500;
+    }
+    .content_core{
+        margin-top:100px;
+        padding:100px 0;
+        h1{
+            padding:20px 0;
+            font-size:45px;
+        }
+        p{
+            font-size:15px;
+            margin-bottom:50px;
+        }
+        button{
+            background-color:transparent;
+            color:white;
+            border:5px solid white;  
+            border-radius: 0;
+            font-weight:700;
+            padding:20px 40px;
+            margin-right:20px;
+            transition: all 0.3s ease;
+            position: relative;
+            &:hover{
+                color:$mainColor;
+                background-color: white;
+            }
+        }
+    }
+    .right_core{
+        height:100%;
+        img{
+            height: 100%;
+        }
+        position: absolute;
+        top:0;
+        right:0px;
+    }
+}

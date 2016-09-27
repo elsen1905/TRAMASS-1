@@ -1,0 +1,192 @@
+$fontFam:"Raleway",Helvetica,Arial,sans-serif;
+
+//some global info for all page;
+#profile{
+	background:#f7f7f7;
+	color:#777;
+	font-weight:300;
+	text-shadow:none;
+
+	padding-top: 50px;
+	font-family:$fontFam;
+	font-size: 16px;
+
+
+	.content{
+		//style for right part(global col-md-9);
+		.col-md-9{
+			background:#fff;
+			//profile img 
+			.col-md-3{
+				padding:25px;
+			}
+
+			//informations about man
+			.col-md-9{
+				padding: 20px;
+				h2{
+					font-size: 32px;
+					color:#777;
+
+				}
+				i{
+					cursor: pointer;
+					color:green;
+					&:hover{
+						color:lighten(green,7%);
+					}
+				}
+				p{
+					margin:0 0 10px;
+					color:#858585;
+					
+				}
+				//table about planted absorbed participated;
+
+				table{
+					margin-top:20px;
+					td, th{
+						vertical-align: top;
+						padding: 5px;
+						text-align: left;
+					}
+
+				}
+			}
+			//invest a crop button part
+//penting payment part
+			.penting{
+
+				margin-top:50px;
+				//info about some item 
+				.col-md-6{
+					font-weight: 600;
+					img{
+						width: 120px;	
+						margin-right: 20px;
+					}
+					h3{
+						margin-bottom: 20px;
+					}
+					a{
+						text-decoration: none;
+						color:#417630;
+						&:hover{
+							color: #5cb85c;
+						}
+					}
+					p{
+						font-weight: bold;
+						line-height: 30px;
+					}
+
+					table{
+						margin-top: 40px;
+					}
+
+					table,td,tr{
+						border-style: none;
+
+					}
+
+
+				}
+
+			}
+
+
+//part with seed
+			.seed{
+
+				//line which scroll (right-left)
+
+				.line{
+				width: 50%;
+				
+				border-top:3px solid #417630;
+				margin-bottom:40px;
+				}
+
+				padding: 15px;
+
+				//button part 
+				.col-md-6{
+
+						/* &:hover{
+							 margin-bottom: -2px;
+						}	border-bottom: 2px solid #417630; 
+						 */
+
+					font-size: 20px;
+					padding:10px 0 10px 0;
+					/* margin-bottom: 60px; */
+					a{ 
+					text-decoration: none;
+						color:#417630;
+						&:hover{
+						color:lighten(#417630,8%);
+						cursor: pointer;
+
+						
+							}
+						}
+
+
+				}
+
+				//tree image
+				img{
+				
+					margin-right: auto;
+					margin-left: auto;
+					margin-bottom: 20px;
+
+				}
+
+			}
+
+		}
+
+
+		//right part (global col-md-3)
+		.col-md-3 {
+			font-size: 12px;
+			padding-left: 30px;
+
+		//people list
+		
+		li img{
+				width: 70px;
+				
+			}
+			a{
+				text-decoration: none;
+				color: #417630;
+				font-weight: bold;
+				&:hover{
+					color:lighten(#417630, 7%)
+
+				}
+			}
+
+		span{
+
+			line-height: 26px;
+		}
+
+//part with date upcoming
+	.upcoming{
+		display: block;
+		position: relative;
+		font-size: 16px;
+		
+		}
+	}
+	}
+	
+}
+
+
+
+
+

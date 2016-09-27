@@ -1,0 +1,90 @@
+#productsingle{
+	background-color: #FAFAFA;
+	height: 1200px;
+	.peanut{
+	background-color: white;
+	h1{
+		color:#777777;	
+	}
+}
+.peanutbtn{
+	button{
+		&:hover{transition:  0.8s;
+-webkit-box-shadow: 13px 9px 30px 0px rgba(74,74,58,1);
+-moz-box-shadow: 13px 9px 30px 0px rgba(74,74,58,1);
+box-shadow: 13px 9px 30px 0px rgba(74,74,58,1);}
+
+		
+	}
+}
+.profit{
+	margin-top: 20px;
+	width: 255px;
+	font-weight: 600;
+
+	i{
+		margin-right: 5px;
+		font-size: 1.5em;
+	}
+	a{
+		font-size: 0.9em;
+		text-decoration: none;
+		color:white;
+	}
+}
+.seeOther{
+	h3{
+		color:#959595;
+		margin-top: 55px;
+		margin-bottom: 30px;
+	}
+	ul li{
+		list-style: none;
+		font-size: 1.3em;
+		font-weight: 600;
+		color:#417630;
+		&:hover{
+			cursor: pointer;
+			color:#7DAE6E;
+		}
+	}
+}
+.hectar{
+	h2{
+		line-height: 110%;
+		font-weight: 400;
+		color:#787878;
+		letter-spacing: 2px;
+	}
+	ul li{
+		list-style: none;
+		font-size: 1.3em;
+		line-height: 2;
+		color:#A5A5A5;
+		i{
+			margin-right: 15px;
+			color:#777777;
+
+		}
+	}
+}
+.notify{
+	width: 	458px;
+	height: 50px;
+	font-size: 1.4em;
+	&:hover{transition:  0.8s;
+-webkit-box-shadow: 13px 9px 30px 0px rgba(74,74,58,1);
+-moz-box-shadow: 13px 9px 30px 0px rgba(74,74,58,1);
+box-shadow: 13px 9px 30px 0px rgba(74,74,58,1);}
+
+}
+.textt{ 
+	p{
+		font-size: 1.3em;
+		color:#BEBEBE;
+
+	}
+	
+}
+}
+

@@ -1,0 +1,199 @@
+@import "_variables";
+
+#scroll_navbar{
+    background-color:#35362F;
+    width:100%;
+    z-index:1000;
+    position:fixed;
+    display:none;
+    padding-top: 10px;
+    overflow:hidden;
+    .navbar-header{
+
+        font-family: 'Righteous', cursive;
+        a{
+            color:white;
+            text-decoration: none;
+            font-size:40px;
+            span{
+                color:$mainColor;
+            }
+        }
+
+    }
+    .navbar-right{
+
+        li{
+            margin:0 50px;
+            a{
+                font-size:20px;
+                color:white;
+                transition: all 0.3s linear;
+                &:active , &:hover{
+                    background-color:transparent;
+                    color: $mainColor;
+                }
+            }
+        }
+    }
+}
+//.buttonSliderRight{
+//    transition: all 0.2s ease;
+//    width:0px;
+//    height: 100%;
+//    background-color: white;
+//    position: absolute;
+//    left:0;
+//    top:0;
+//    z-index:-2;
+//}
+.divider{
+        height: 1px;
+        width:1000px;
+        background-color: #A8A893;
+        opacity: 0.3;
+    }
+#header {
+    background:url('../../img/header/page-1_slide01.jpg') no-repeat center;
+    background-size:cover;
+    transition:all 1s ease;
+//    background:url('../../img/header/page-1_slide01.jpg') no-repeat center;
+//    background-size:cover;
+    img{
+        width:100%;
+    }
+    overflow:hidden;
+    height: auto;
+    .navbar-header{
+        padding:40px;
+        font-family: 'Righteous', cursive;
+        a{
+            color:white;
+            text-decoration: none;
+            font-size:40px;
+            span{
+                color:$mainColor;
+            }
+        }
+
+    }
+    .navbar-right{
+        border-bottom:1px solid gray;
+        li{
+            margin:0 30px;
+            a{
+                border-bottom:3px solid transparent;
+                font-size:20px;
+                padding:50px 30px;
+                color:white;
+                transition: all 0.3s linear;
+
+                &:active , &:hover{
+                    background-color:transparent !important;
+                    color: $mainColor;
+                    border-bottom:3px solid $secondColor;
+                }
+            }
+        }
+    }
+    h1,h3{
+        color:white;
+        text-align: center;
+    }
+    h3{
+            margin:50px;
+        }
+
+    .row:nth-child(2){
+        .divider{
+            margin:0 auto;
+            &:after{
+                content:" ";
+                width:150px;
+                height: 10px;
+                background-color: white;
+                position:absolute;
+                left:0px;
+                right: 0;
+                margin: 0 auto;
+            }
+        }
+        h1{
+            font-size:100px;
+            font-weight: 700;
+            line-height: 90px;
+        }
+
+    }
+    .button_part_header{
+        padding-bottom:250px;
+        display: flex;
+        justify-content: center;
+        .defaultButton{
+            background-color:transparent;
+            color:white;
+            border:5px solid white;
+            border-radius: 0;
+            font-weight:700;
+            padding:20px 40px;
+            margin-right:20px;
+            transition: all 0.3s ease;
+            position: relative;
+            div{
+                transition: all 0.2s ease;
+                width:0px;
+                height: 100%;
+                background-color: white;
+                position: absolute;
+                left:0;
+                top:0;
+                z-index:-2;
+            }
+            &:hover{
+                color:$mainColor;
+                background-color: white;
+                div{
+                    width:100%;
+                    height: 100%;
+                }
+            }
+        }
+        .successButton{
+            background-color:$mainColor;
+            color:white;
+            border-radius: 0;
+            font-weight:700;
+            padding:25px 50px;
+            position: relative;
+            transition: all 0.2s ease;
+            border:5px solid $mainColor;
+            div{
+                transition: all 0.3s ease;
+                position: absolute;
+                right:0;
+                top:0;
+                width:100%;
+                height: 100%;
+                background-color:$mainColor;
+            }
+            &:hover{
+                background-color: transparent;
+                div{
+                    background-color: transparent;
+                    width:0%;
+                }
+            }
+        }
+    }
+    .slide_carousel{
+        position: absolute;
+        left:0;
+        top:0;
+        width:100%;
+        z-index:-32;
+    }
+}
+.button_active{
+        width:20px;
+        height: 20px;
+    }
